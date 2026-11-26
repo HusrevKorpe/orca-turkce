@@ -1,5 +1,7 @@
 # Türkçe (English) — Orca dil paketi
 
+![Türkçe Orca menüsü](assets/cover.png)
+
 Orca arayüzünü Türkçeye çevirir. Kısa etiketler (menüler, düğmeler) orijinal İngilizcesini parantez içinde de gösterir: **Ayarlar (Settings)**, **Yeniden dene (Retry)**. Böylece İngilizce dokümanlar ve videolarla eşleştirmek kolay olur. Uzun cümleler yalnızca Türkçedir.
 
 Turkish translation of the Orca interface. Short labels keep the original English in parentheses.
