@@ -1,0 +1,21 @@
+{
+  "manifestVersion": 2,
+  "id": "turkce",
+  "name": "Türkçe (English)",
+  "version": "1.1.0",
+  "description": "Turkish translation of the Orca interface. Short labels also show the original English in parentheses, so menus stay easy to match with English docs.",
+  "license": "MIT",
+  "engines": {
+    "orca": ">=1.4.246"
+  },
+  "execution": "data",
+  "contributes": {
+    "languagePacks": [
+      {
+        "locale": "tr",
+        "path": "locales/tr.json",
+        "displayName": "Türkçe (English)"
+      }
+    ]
+  }
+}
