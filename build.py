@@ -27,8 +27,9 @@ def is_short_label(english: str) -> bool:
 
 def render(english: str, turkish: str, keyword: bool = False) -> str:
     if keyword:
-        # Search keywords keep the English word so typing either language still matches.
-        return turkish if english.casefold() == turkish.casefold() else f'{turkish} {english}'
+        # Search keywords keep the English word so typing either language still matches; Orca also
+        # shows some of these as labels, so the English goes in parentheses like any short label.
+        return turkish if english.casefold() == turkish.casefold() else f'{turkish} ({english})'
     if not is_short_label(english) or english.casefold() == turkish.casefold():
         return turkish
     # Menu items like "Check for Updates..." keep their ellipsis on the Turkish side only.
